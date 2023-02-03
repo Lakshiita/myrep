@@ -1,0 +1,86 @@
+body{
+  background: rgb(205, 240, 248);
+    font-family: 'Muli', sans-serif;
+    background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-left: 50px;
+  }
+form{
+  align-items: stretch;
+  margin-top: 50px;
+}
+.mybtn {
+  background-color: #1d5168; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.myinp {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.links{
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background-color: #79d7ff; /* Green */
+  border: 1px solid rgb(22, 96, 121);
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.edit_btn {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 115, 76);
+  border-radius: 12px;
+  
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 5px 5px;
+  background-color: rgb(92, 4, 9);
+  color: rgb(235, 235, 235);  
+  border-radius: 12px; 
+}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  z-index: 15;
+}
+
+table, td, th {  
+  border: 1px solid rgb(72, 72, 72);
+  text-align: left;
+   /* text-align: center; */
+}
+th {
+  background-color: #0489aa;
+  color: white;
+}
+table {
+ 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
